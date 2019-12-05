@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Custom Video Player</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="c-video" id='c-video'>
+        <video class="video" id='video'>
+            <source src="Sample.mp4" type="video/mp4">
+            Your browser does not support player
+        </video>
+        <div class="controls" id='controls'>
+            <div class="orange-bar" id='orange-bar'>
+                    <div class="orange-juice" id="orange-juice"></div>
+            </div>
+            <div class="buttons">
+                <div class='playbtn hover-common'>
+                    <button id="play-pause" style="font-size: 20px; color: white" title="Play/Pause">&#9658;</button>
+                </div>
+                <div class='volume-controls hover-common' title="Volume Controls">
+                    <span id='vol-icon' class='volcom volicon'
+                        style="color: white; font-size: 25px; transform: rotate(180deg); cursor: pointer;">&#128362;</span>
+                        <div class="vhold" id='hold'>
+                            <div class="change" id="change"></div>
+                            <div class='pl' id='pl'></div>
+                        </div>
+                </div>
+                <div class="volcom duration-holder">
+                    <div class="duration" id="duration-update"></div>
+                </div>
+                <div id="playback" class='playback'>
+                    <div class="skipper volcom">
+                        <div class="back volcom hover-common" id='back' title="Skip back 10 secs">&#10554;</div>
+                        <div class="ago volcom hover-common" id='ago' title="Skip forward 10 secs">&#10554;</div>
+                    </div>
+                   <!-- <div class="volcom" title="Playback Speed">
+                        <span class='volcom playback-display' id="playbackrate">1x</span>
+                        <span class='volcom'><input type='range' class='rate-selector' id='rate-selector' min='0.25'max='2.0' value='1.0' step="0.25"></span>
+                    </div>-->
+                    <div class="volcom">
+                        <button class='fscreen' id='fscreen'>fs</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src='customscript.js'></script>
+</body>
+
+</html>
