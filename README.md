@@ -1,7 +1,7 @@
-#Custom HTML5 Video Player
+# Custom HTML5 Video Player
 It is a Custom HTML5 video player designed using JavaScript, CSS and HTML5.
 
-#Prerequisite
+# Prerequisite
 You nedd HTML5 supported Browser such as:-
 ```bash
 Google Chrome
@@ -10,11 +10,11 @@ Microsoft Edge
 Opera
 Safari
 ```
-#Running the Program
+# Running the Program
 Just open index.html file it will automatically show you video player
 
-#Author
+# Author
 Harshal sanghvi
 
-#Contact no.
+# Contact no.
 8959221133
