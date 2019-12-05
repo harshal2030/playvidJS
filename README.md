@@ -1,8 +1,8 @@
 # Custom HTML5 Video Player
-It is a Custom HTML5 video player designed using JavaScript, CSS and HTML5.
+It is a Custom HTML5 video player designed using pure JavaScript(no framework used), CSS and HTML5.
 
 # Prerequisite
-You nedd HTML5 supported Browser such as:-
+You need HTML5 supported Browser such as:-
 ```bash
 Google Chrome
 Mozilla Firefox
@@ -16,5 +16,5 @@ Just open index.html file it will automatically show you video player
 # Author
 Harshal sanghvi
 
-# Contact no.
-8959221133
+# Contact
+harshal2030@outlook.com
